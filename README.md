@@ -5,6 +5,12 @@
 > 本次基于 webpack@4.10.2，webpack-cli@0.0.8-development
 >
 > 如果是本地安装的包，则运行的时候需要在前面加上”npx“，如 npx webpack -d
+>
+> 如果直接使用git中的包，下载后 执行：
+>
+> ``` java
+>  npm install 
+> ```
 
 ``` javascript
 安装：npm install -D webpack@4.10.2 webpack-cli@0.0.8-development 
@@ -89,3 +95,23 @@ webpack-dev-server --inline --hot
 ## plugins
 
 ### clean-webpack-plugin使用
+
+# 其他说明
+
+## 命名：
+
+- 对于plugin，声明的对象使用 Pascal命名方式，如：
+
+  ``` c#
+  const CleanWebpackPlugin = require("clean-webpack-plugin");
+  ```
+
+  
+
+- 对于Module，声明的对象使用 Pascal命名方式，如 CleanWebpackPlugin
+
+  ```c#
+  const webpack = require("webpack");
+  ```
+
+  
