@@ -108,7 +108,7 @@ webpack-dev-server --inline --hot
 
   
 
-- 对于Module，声明的对象使用 Pascal命名方式，如 CleanWebpackPlugin
+- 对于Module，声明的对象使用 camel命名方式，如 CleanWebpackPlugin
 
   ```c#
   const webpack = require("webpack");
